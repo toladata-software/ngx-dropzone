@@ -169,6 +169,5 @@
         }
       }
     }
-  },
-  "defaultProject": "ngx-dropzone-lib"
+  }
 }
