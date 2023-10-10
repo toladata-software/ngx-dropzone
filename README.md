@@ -1,18 +1,11 @@
-> **Warning**
->
-> This repository is **DEPRECATED** and will no longer receive any updates!
->
-> Unfortunately, I don't have the time to maintain this repo anymore. Take a look at the official successor repo
-> [hackingharold/ngx-dropzone](https://github.com/hackingharold/ngx-dropzone) for further maintenance.
-> For the still active users, there are a bunch of forks available, feel free to use any of those for your projects
-> if you don't want to switch to the new implementation.
+# ngx-dropzone
 
-# ngx-dropzone (🚫 deprecated!)
+A lightweight and highly customizable Angular dropzone component for file uploads.  
+Based on [peterfreeman/ngx-dropzone](https://github.com/peterfreeman/ngx-dropzone) repository.  
+Compatible with Angular 16.
 
-A lightweight and highly customizable Angular dropzone component for file uploads.
-
-[![NPM](https://img.shields.io/npm/v/ngx-dropzone.svg)](https://www.npmjs.com/package/ngx-dropzone)
-[![Build Status](https://travis-ci.com/peterfreeman/ngx-dropzone.svg?branch=master)](https://travis-ci.com/peterfreeman/ngx-dropzone)
+[![NPM](https://img.shields.io/npm/v/clemdesign/ngx-dropzone.svg)](https://www.npmjs.com/package/ngx-dropzone)
+[![Build Status](https://travis-ci.com/clemdesign/ngx-dropzone.svg?branch=master)](https://travis-ci.com/peterfreeman/ngx-dropzone)
 
 <img src="_images/default.png">
 
@@ -23,7 +16,7 @@ For a demo see [DEMO](https://ngx-dropzone.stackblitz.io). And the [CODE for the
 ## Install
 
 ```
-$ npm install --save ngx-dropzone
+$ npm install --save clemdesign/ngx-dropzone
 ```
 
 ## Usage
