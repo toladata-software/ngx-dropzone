@@ -16,7 +16,7 @@ For a demo see [DEMO](https://ngx-dropzone.stackblitz.io). And the [CODE for the
 ## Install
 
 ```
-$ npm install --save clemdesign/ngx-dropzone
+$ npm install --save @clemdesign/ngx-dropzone
 ```
 
 ## Usage

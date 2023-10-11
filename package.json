@@ -3,11 +3,14 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
+    "start:app": "ng serve app",
+    "start:lib": "ng serve --watch --project=lib",
+    "build:app": "ng build app",
+    "build:lib": "ng build lib --configuration production",
+    "test:app": "ng test app",
+    "lint:lib": "ng lint lib",
     "e2e": "ng e2e",
+    "npm:deploy": "npm run build:lib && cp README.md dist/ngx-dropzone/ && cd dist/ngx-dropzone && npm publish",
     "release": "cd projects/ngx-dropzone && npm version minor && cd ../.. && ng build --prod ngx-dropzone && cp README.md dist/ngx-dropzone/ && cd dist/ngx-dropzone && npm publish"
   },
   "private": true,
@@ -22,7 +25,7 @@
     "@angular/router": "^16.2.8",
     "core-js": "^2.5.4",
     "rxjs": "^6.6.3",
-    "tslib": "^2.0.0",
+    "tslib": "^2.6.2",
     "zone.js": "^0.13.3"
   },
   "devDependencies": {
