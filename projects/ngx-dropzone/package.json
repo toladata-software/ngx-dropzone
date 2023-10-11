@@ -16,6 +16,9 @@
     "image"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/clemdesign/ngx-dropzone",
   "repository": {
     "type": "git",
