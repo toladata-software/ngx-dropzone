@@ -1,0 +1,52 @@
+{
+  "name": "@toladata-software/ngx-dropzone",
+  "description": "A highly configurable dropzone component for Angular.",
+  "version": "17.2.0",
+  "author": "clemdesign",
+  "keywords": [
+    "angular",
+    "angular 2",
+    "ngx",
+    "drag",
+    "drop",
+    "dropzone",
+    "ngx-dropzone",
+    "file",
+    "upload",
+    "image"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/toladata-software/ngx-dropzone",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toladata-software/ngx-dropzone.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^17.3.7",
+    "@angular/core": "^17.3.7",
+    "@angular/forms": "^17.3.7"
+  },
+  "bugs": {
+    "url": "https://github.com/toladata-software/ngx-dropzone/issues"
+  },
+  "module": "fesm2022/toladata-software-ngx-dropzone.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/toladata-software-ngx-dropzone.mjs",
+      "esm": "./esm2022/toladata-software-ngx-dropzone.mjs",
+      "default": "./fesm2022/toladata-software-ngx-dropzone.mjs"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.6.2"
+  }
+}
