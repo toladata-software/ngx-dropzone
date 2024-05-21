@@ -10,7 +10,7 @@
     "test:app": "ng test app",
     "lint:lib": "ng lint lib",
     "e2e": "ng e2e",
-   "prepare": "npm run build"
+    "prepare": "npm run build:lib"
   },
   "private": true,
   "dependencies": {
