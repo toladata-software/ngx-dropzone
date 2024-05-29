@@ -2,7 +2,7 @@
 
 A lightweight and highly customizable Angular dropzone component for file uploads.  
 Based on [peterfreeman/ngx-dropzone](https://github.com/peterfreeman/ngx-dropzone) repository.  
-Compatible with Angular 16.
+Compatible with Angular 17.
 
 [![NPM](https://img.shields.io/npm/v/@clemdesign/ngx-dropzone.svg)](https://www.npmjs.com/package/ngx-dropzone)
 
@@ -138,3 +138,5 @@ This component is used within the previews to remove selected files. You can use
 ## Licence
 
 MIT © Peter Freeman
+
+
